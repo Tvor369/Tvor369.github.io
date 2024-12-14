@@ -1,7 +1,47 @@
 body{
-    background: darkkhaki;
+    background-image: url('prettyvalley.jpg');
+    background-size: cover;
 }
 
+
+
 h1{
-    color: darkred;
+    
 }
+
+.container{
+    background-color: rgba(188, 143, 143, 0.420);
+    width: 50%;
+    margin:auto;
+    height: 100%;
+}
+
+.divider{
+
+}
+
+
+
+/*My Profile Card*/
+.card {
+    background-color: rgb(232, 231, 223);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404);
+    transition: 0.3s;
+    width: 50%;
+    margin: auto;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.69);
+  }
+  
+  /* Add some padding inside the card container */
+  .cardinfo {
+    padding: 2px 16px;
+  }
+
+  .bio {
+    margin: auto;
+    width: 50%;
+  }
